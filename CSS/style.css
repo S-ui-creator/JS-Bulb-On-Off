@@ -1,0 +1,54 @@
+/* CSS COMMON START */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+/* CSS COMMON END */
+body{
+    background: #918888;
+}
+.container{
+    margin-left: 40%;
+}
+.container .bulbimg img{
+    width: 200px;
+    height: 200px;
+}
+.container .bulbimg{
+    margin: 30px 0;
+}
+.container button{
+    padding: 8px 16px;
+    color: white;
+    border-radius: 10px;
+    background: #503737;
+    cursor: pointer;
+    transition: 300ms;
+    outline: none;
+    border: 0.5px solid #000000;
+    margin-right: 20px;
+}
+.container button:hover{
+    border-radius: 50px;
+}
+
